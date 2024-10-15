@@ -8,10 +8,15 @@ const config: Config = {
   ],
   theme: {
     extend: {
+      backgroundImage:{
+        'back':"url('https://imgur.com/DwI3aVq.jpg')",
+      
+      },
       colors: {
         background: "var(--background)",
         foreground: "var(--foreground)",
       },
+      
     },
   },
   plugins: [],
