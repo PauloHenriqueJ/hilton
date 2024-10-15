@@ -4,10 +4,13 @@ import Pagina from "@/components/Pagina";
 export default function Home() {
   return (
     <Pagina >
-     <div>
-      <h1>Inicio</h1>
-      <button className="botao vermelho">Salvar</button>
-     </div>
+     <main className="items-center">
+      <div id="servicos" className=" items-start justify-center">
+      
+
+      </div>
+    
+     </main>
     </Pagina>
   );
 }
