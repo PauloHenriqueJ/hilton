@@ -1,8 +1,8 @@
 export default function Projetos(){
     return(
         <div id="projetos" className="flex boxed flex flex-col justify-end items-center mt-12">
-            <h1 className="antialiased font-bold text-4xl">Projetos</h1>
-            <span className="antialiased text-center font-medium mt-2 text-wrap">Nossa empresa é especializada em transformar ambientes residenciais, comerciais,
+            <h1 className="antialiased text-center font-bold sm:font-medium mt-2 text-lg sm:text-xl md:text-2xl lg:text-5xl">Projetos</h1>
+            <span className="antialiased text-center font-medium mt-2 text-lg sm:text-xl md:text-2xl lg:text-2xl text-wrap">Nossa empresa é especializada em transformar ambientes residenciais, comerciais,
                  quadras esportivas e instalações médicas com serviços de pintura de alta qualidade.
                   Cada projeto é realizado com dedicação e atenção aos detalhes, garantindo um resultado impecável e duradouro.</span>
 
