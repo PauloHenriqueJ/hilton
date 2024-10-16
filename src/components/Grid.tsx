@@ -64,6 +64,70 @@ const ImageGrid: React.FC = () => {
             <p className="text-gray-700">Descrição da Foto 4</p>
           </div>
         </div>
+        <div className="bg-white shadow-md rounded-lg overflow-hidden transition-transform hover:scale-105">
+          <div onClick={() => openModal("https://imgur.com/csBCQOI.jpg")}>
+            <img src="https://imgur.com/csBCQOI.jpg" alt="Descrição da Foto 4" className="w-full h-64 object-cover"/>
+          </div>
+          <div className="p-4">
+            <p className="text-gray-700">Descrição da Foto 5</p>
+          </div>
+        </div>
+        <div className="bg-white shadow-md rounded-lg overflow-hidden transition-transform hover:scale-105">
+          <div onClick={() => openModal("https://imgur.com/5Nnkb2c.jpg")}>
+            <img src="https://imgur.com/5Nnkb2c.jpg" alt="Descrição da Foto 4" className="w-full h-64 object-cover"/>
+          </div>
+          <div className="p-4">
+            <p className="text-gray-700">Descrição da Foto 6</p>
+          </div>
+        </div>
+        <div className="bg-white shadow-md rounded-lg overflow-hidden transition-transform hover:scale-105">
+          <div onClick={() => openModal("https://imgur.com/r0TxOEK.jpg")}>
+            <img src="https://imgur.com/r0TxOEK.jpg" alt="Descrição da Foto 4" className="w-full h-64 object-cover"/>
+          </div>
+          <div className="p-4">
+            <p className="text-gray-700">Descrição da Foto 7</p>
+          </div>
+        </div>
+        <div className="bg-white shadow-md rounded-lg overflow-hidden transition-transform hover:scale-105">
+          <div onClick={() => openModal("https://imgur.com/wio5h4H.jpg")}>
+            <img src="https://imgur.com/wio5h4H.jpg" alt="Descrição da Foto 4" className="w-full h-64 object-cover"/>
+          </div>
+          <div className="p-4">
+            <p className="text-gray-700">Descrição da Foto 8</p>
+          </div>
+        </div>
+        <div className="bg-white shadow-md rounded-lg overflow-hidden transition-transform hover:scale-105">
+          <div onClick={() => openModal("https://imgur.com/MDASgGk.jpg")}>
+            <img src="https://imgur.com/MDASgGk.jpg" alt="Descrição da Foto 4" className="w-full h-64 object-cover"/>
+          </div>
+          <div className="p-4">
+            <p className="text-gray-700">Descrição da Foto 9</p>
+          </div>
+        </div>
+        <div className="bg-white shadow-md rounded-lg overflow-hidden transition-transform hover:scale-105">
+          <div onClick={() => openModal("https://imgur.com/DDPA8nn.jpg")}>
+            <img src="https://imgur.com/DDPA8nn.jpg" alt="Descrição da Foto 4" className="w-full h-64 object-cover"/>
+          </div>
+          <div className="p-4">
+            <p className="text-gray-700">Descrição da Foto 10</p>
+          </div>
+        </div>
+        <div className="bg-white shadow-md rounded-lg overflow-hidden transition-transform hover:scale-105">
+          <div onClick={() => openModal("https://imgur.com/NZxT87t.jpg")}>
+            <img src="https://imgur.com/NZxT87t.jpg" alt="Descrição da Foto 4" className="w-full h-64 object-cover"/>
+          </div>
+          <div className="p-4">
+            <p className="text-gray-700">Descrição da Foto 11</p>
+          </div>
+        </div>
+        <div className="bg-white shadow-md rounded-lg overflow-hidden transition-transform hover:scale-105">
+          <div onClick={() => openModal("https://imgur.com/46dbkRn.jpg")}>
+            <img src="https://imgur.com/46dbkRn.jpg" alt="Descrição da Foto 4" className="w-full h-64 object-cover"/>
+          </div>
+          <div className="p-4">
+            <p className="text-gray-700">Descrição da Foto 12</p>
+          </div>
+        </div>
       </div>
 
       <Modal
