@@ -29,15 +29,16 @@ body {
   .botao.vermelho {
     @apply bg-red-700;
   }
+  @layer utilities{
+    .boxed{
+      @apply mx-auto max-w-7xl w-full;
+    }
+  }
 
   
   
   
 }
-@layer utilities{
-  .boxed{
-    @apply mx-auto max-w-7xl w-full;
-  }
-}
+
 
   
