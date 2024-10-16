@@ -2,7 +2,7 @@ import Image from "next/image";
 
 export default function Sobre() {
   return (
-    <div>
+    <div id="sobre">
       <div>
         <h1 className="antialiased text-center font-bold sm:font-medium mt-7 text-lg sm:text-xl md:text-2xl lg:text-5xl">
           Sobre nós
