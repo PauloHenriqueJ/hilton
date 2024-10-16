@@ -1,3 +1,4 @@
+import { FaBasketballBall, FaBuilding, FaHome, FaHospital } from "react-icons/fa";
 import Card from "../Card";
 
 export default function Servicos(){
@@ -11,11 +12,29 @@ export default function Servicos(){
   Revitalize seu lar ou estabelecimento com a excelência de uma pintura profissional. A transformação que você merece.
 </p>
 
-            <div className="mt-3 flex flex-col sm:flex-row gap-3">
-    <Card  description="Colorindo seu lar com cuidado e carinho." />
-    <Card description="Transformando espaços comerciais com excelência." />
-</div>
+<div className="mt-3 flex flex-col sm:flex-row gap-3">
+      <Card 
+        description="Colorindo seu lar com cuidado e carinho."
+        bgColor="bg-blue-300"
+        icon={<FaHome className="text-white w-10 h-7" />}
+      />
+      <Card 
+        description="Transformando espaços comerciais com excelência."
+        bgColor="bg-green-300"
+        icon={<FaBuilding className="text-white w-10 h-7" />}
+      />
+      <Card 
+        description="Quadras esportivas com alta durabilidade."
+        bgColor="bg-red-300"
+        icon={<FaBasketballBall className="text-white w-10 h-7" />}
+      />
+      <Card 
+        description="Hospitais pintados com cuidado e higiene."
+        bgColor="bg-yellow-300"
+        icon={<FaHospital className="text-white w-10 h-7" />}
+      />
 
+        </div>
         </div>
 
         
