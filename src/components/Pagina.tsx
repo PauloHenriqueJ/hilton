@@ -13,8 +13,8 @@ export default function Pagina(props: PaginaProps){
 
 
     return(
-        <div className=" flex flex-col min-h-screen">
-            <Cabecalho className="flex flex-col items-center justify-center"/>
+        <div className=" flex flex-col min-h-screen no-scrollbar ">
+            <Cabecalho className="flex flex-col items-center justify-center w-full"/>
             <div className=" flex-1 flex boxed">
              
                 <main className="flex-1 py-7">
