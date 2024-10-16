@@ -3,7 +3,7 @@ import { FaFacebook, FaInstagram, FaWhatsapp } from 'react-icons/fa';
 
 export default function Contatos(){
     return(
-        <div className='flex-1 border border-zinc-700 rounded-md'>
+        <div className=' flex-1 border border-zinc-700 rounded-md '>
             <h1 className="antialiased text-center font-bold sm:font-medium mt-7 text-lg sm:text-xl md:text-2xl lg:text-5xl">
         Contatos
       </h1>
