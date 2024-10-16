@@ -7,9 +7,9 @@ interface CabecalhoProps{
  
  export default function Cabecalho (props:CabecalhoProps){
     return (
-        <header className={`w-full h-[710px] bg-back bg-cover bg-no-repeat bg-center 
+        <header className={`bg-back bg-cover bg-no-repeat bg-center w-full lg:h-[710px] h-[50vh] sm:h-[70vh]
            ${props.className ?? ''}`}>
-            <Menu className="relative"/>
+            <Menu className="block"/>
             <Logo/>
             
            </header>
