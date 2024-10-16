@@ -3,6 +3,8 @@ import Cabecalho from "./templates/Cabecalho"
 import Rodape from "./templates/Rodape"
 import Servicos from "./templates/Servicos"
 import Projetos from "./Projetos"
+import Sobre from "./Sobre"
+import Contatos from "./Contatos"
 
 interface PaginaProps {
     children?: ReactNode
@@ -20,6 +22,8 @@ export default function Pagina(props: PaginaProps){
                 <main className="flex-1 py-7">
                     <Servicos/>
                     <Projetos/>
+                    <Sobre/>
+                    <Contatos/>
                     {props.children}</main>
             </div>
             <Rodape className="h-16"/>
