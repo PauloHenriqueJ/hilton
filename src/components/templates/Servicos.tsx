@@ -12,7 +12,7 @@ export default function Servicos(){
 </p>
 
             <div className="mt-3 flex flex-col sm:flex-row gap-3">
-    <Card description="Colorindo seu lar com cuidado e carinho." />
+    <Card  description="Colorindo seu lar com cuidado e carinho." />
     <Card description="Transformando espaços comerciais com excelência." />
 </div>
 
