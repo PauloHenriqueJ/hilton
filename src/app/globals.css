@@ -5,6 +5,17 @@
 :root {
   --background: #ffffff;
   --foreground: #171717;
+/* globals.css ou outro arquivo CSS global */
+.no-scrollbar {
+  overflow: hidden;
+}
+
+/* Certifique-se de que estes estilos sejam aplicados globalmente */
+html, body {
+  overflow-x: hidden;
+  overflow-y: auto;
+}
+
 }
 
 @media (prefers-color-scheme: white) {
