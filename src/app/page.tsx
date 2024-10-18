@@ -10,7 +10,7 @@ interface PaginaProps {
     children?: ReactNode;
   }
 
-export default function Pagina(props: PaginaProps){
+export default function Page(props: PaginaProps){
     return(
         <div className=" flex-col min-h-screen no-scrollbar">
             <Cabecalho className="flex flex-col items-center justify-center w-full"/>
