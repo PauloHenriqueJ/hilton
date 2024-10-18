@@ -6,11 +6,8 @@ import Rodape from "@/components/templates/Rodape";
 import Servicos from "@/components/templates/Servicos";
 import { ReactNode } from "react";
 
-interface PaginaProps {
-    children?: ReactNode;
-  }
 
-export default function Page(props: PaginaProps){
+export default function Page(){
     return(
         <div className=" flex-col min-h-screen no-scrollbar">
             <Cabecalho className="flex flex-col items-center justify-center w-full"/>
@@ -21,7 +18,7 @@ export default function Page(props: PaginaProps){
                     <Projetos/>
                     <Sobre/>
                     <Contatos/>
-                    {props.children}</main>
+                    </main>
             </div>
             <Rodape className="h-16"/>
         </div> 
