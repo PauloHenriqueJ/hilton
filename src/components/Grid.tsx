@@ -37,7 +37,7 @@ const ImageGrid: React.FC = () => {
             <img src="https://imgur.com/sOiz87d.jpg" alt="Descrição da Foto 1" className="w-full h-64 object-cover"/>
           </div>
           <div className="p-4">
-            <p className="text-gray-700">Descrição da Foto 1</p>
+            <p className="text-gray-700">Pintura da quadra esportiva</p>
           </div>
         </div>
         <div className="bg-white shadow-md rounded-lg overflow-hidden transition-transform hover:scale-105">
@@ -45,7 +45,7 @@ const ImageGrid: React.FC = () => {
             <img src="https://imgur.com/E3DRgTh.jpg" alt="Descrição da Foto 2" className="w-full h-64 object-cover"/>
           </div>
           <div className="p-4">
-            <p className="text-gray-700">Descrição da Foto 2</p>
+            <p className="text-gray-700">Pintura da quadra de ginásio</p>
           </div>
         </div>
         <div className="bg-white shadow-md rounded-lg overflow-hidden transition-transform hover:scale-105">
@@ -53,7 +53,7 @@ const ImageGrid: React.FC = () => {
             <img src="https://imgur.com/8FfNqev.jpg" alt="Descrição da Foto 3" className="w-full h-64 object-cover"/>
           </div>
           <div className="p-4">
-            <p className="text-gray-700">Descrição da Foto 3</p>
+            <p className="text-gray-700">Pintura da quadra de condomínio</p>
           </div>
         </div>
         <div className="bg-white shadow-md rounded-lg overflow-hidden transition-transform hover:scale-105">
@@ -61,7 +61,7 @@ const ImageGrid: React.FC = () => {
             <img src="https://imgur.com/UJeOZG6.jpg" alt="Descrição da Foto 4" className="w-full h-64 object-cover"/>
           </div>
           <div className="p-4">
-            <p className="text-gray-700">Descrição da Foto 4</p>
+            <p className="text-gray-700">Marcação e pintura Polo de  Candeias</p>
           </div>
         </div>
         <div className="bg-white shadow-md rounded-lg overflow-hidden transition-transform hover:scale-105">
@@ -69,7 +69,7 @@ const ImageGrid: React.FC = () => {
             <img src="https://imgur.com/csBCQOI.jpg" alt="Descrição da Foto 4" className="w-full h-64 object-cover"/>
           </div>
           <div className="p-4">
-            <p className="text-gray-700">Descrição da Foto 5</p>
+            <p className="text-gray-700">Marcação e pintura Polo de Candeias</p>
           </div>
         </div>
         <div className="bg-white shadow-md rounded-lg overflow-hidden transition-transform hover:scale-105">
@@ -77,7 +77,7 @@ const ImageGrid: React.FC = () => {
             <img src="https://imgur.com/5Nnkb2c.jpg" alt="Descrição da Foto 4" className="w-full h-64 object-cover"/>
           </div>
           <div className="p-4">
-            <p className="text-gray-700">Descrição da Foto 6</p>
+            <p className="text-gray-700">Marcação e pintura Polo Candeias</p>
           </div>
         </div>
         <div className="bg-white shadow-md rounded-lg overflow-hidden transition-transform hover:scale-105">
@@ -85,7 +85,7 @@ const ImageGrid: React.FC = () => {
             <img src="https://imgur.com/r0TxOEK.jpg" alt="Descrição da Foto 4" className="w-full h-64 object-cover"/>
           </div>
           <div className="p-4">
-            <p className="text-gray-700">Descrição da Foto 7</p>
+            <p className="text-gray-700">Marcação e pintura Polo de Candeias</p>
           </div>
         </div>
         <div className="bg-white shadow-md rounded-lg overflow-hidden transition-transform hover:scale-105">
@@ -93,7 +93,7 @@ const ImageGrid: React.FC = () => {
             <img src="https://imgur.com/wio5h4H.jpg" alt="Descrição da Foto 4" className="w-full h-64 object-cover"/>
           </div>
           <div className="p-4">
-            <p className="text-gray-700">Descrição da Foto 8</p>
+            <p className="text-gray-700">Pintura Unidade médica</p>
           </div>
         </div>
         <div className="bg-white shadow-md rounded-lg overflow-hidden transition-transform hover:scale-105">
@@ -101,7 +101,7 @@ const ImageGrid: React.FC = () => {
             <img src="https://imgur.com/MDASgGk.jpg" alt="Descrição da Foto 4" className="w-full h-64 object-cover"/>
           </div>
           <div className="p-4">
-            <p className="text-gray-700">Descrição da Foto 9</p>
+            <p className="text-gray-700">Pintura Unidade médica</p>
           </div>
         </div>
         <div className="bg-white shadow-md rounded-lg overflow-hidden transition-transform hover:scale-105">
@@ -109,7 +109,7 @@ const ImageGrid: React.FC = () => {
             <img src="https://imgur.com/DDPA8nn.jpg" alt="Descrição da Foto 4" className="w-full h-64 object-cover"/>
           </div>
           <div className="p-4">
-            <p className="text-gray-700">Descrição da Foto 10</p>
+            <p className="text-gray-700">Pintura residencial </p>
           </div>
         </div>
         <div className="bg-white shadow-md rounded-lg overflow-hidden transition-transform hover:scale-105">
@@ -117,7 +117,7 @@ const ImageGrid: React.FC = () => {
             <img src="https://imgur.com/NZxT87t.jpg" alt="Descrição da Foto 4" className="w-full h-64 object-cover"/>
           </div>
           <div className="p-4">
-            <p className="text-gray-700">Descrição da Foto 11</p>
+            <p className="text-gray-700">Pintura residencial</p>
           </div>
         </div>
         <div className="bg-white shadow-md rounded-lg overflow-hidden transition-transform hover:scale-105">
@@ -125,7 +125,7 @@ const ImageGrid: React.FC = () => {
             <img src="https://imgur.com/46dbkRn.jpg" alt="Descrição da Foto 4" className="w-full h-64 object-cover"/>
           </div>
           <div className="p-4">
-            <p className="text-gray-700">Descrição da Foto 12</p>
+            <p className="text-gray-700">Pintura residencial</p>
           </div>
         </div>
       </div>

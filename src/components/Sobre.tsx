@@ -23,7 +23,7 @@ export default function Sobre() {
 
         <div className="sm:ml-4 mt-4 sm:mt-0 text-center sm:text-left">
           <p className="antialiased text-center font-medium mt-2 text-lg sm:text-xl md:text-2xl lg:text-2xl">
-            Nossa empresa se dedica a oferecer serviços de pintura de alta
+             HM pintura se dedica a oferecer serviços de pintura de alta
             qualidade para residências e comércios. Com anos de experiência no
             mercado, garantimos um serviço profissional e um acabamento
             impecável.
