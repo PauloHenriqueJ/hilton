@@ -7,7 +7,7 @@ import {Montserrat} from 'next/font/google'
 export const metadata: Metadata = {
   title: "HM Pinturas",
   description: "Pintamos com excelência, transformamos com paixão",
-  keywords: ["pintura", "revitalizar", "Serviço pintura", "HM Pinturas"],
+  keywords: ["pintura", "revitalizar", "Serviço pintura", "HM Pinturas, pintura salvador"],
   openGraph: {
     type: "website",
     url: "https://hm-pinturas.vercel.app/",
