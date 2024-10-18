@@ -6,7 +6,7 @@ interface PaginaProps {
   children?: ReactNode;
 }
 
-export default function Home(props: PaginaProps) {
+export default function page(props: PaginaProps) {
   return (
    <Pagina/>
   );
