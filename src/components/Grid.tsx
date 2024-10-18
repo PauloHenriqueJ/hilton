@@ -146,7 +146,7 @@ const ImageGrid: React.FC = () => {
 const Projetos: React.FC = () => {
   return (
     <div>
-      <h1 className='antialiased text-center font-bold sm:font-medium mt-7 text-lg sm:text-xl md:text-2xl lg:text-5xl'>Projetos de Pintura</h1>
+      <h1 className='antialiased text-center font-bold sm:font-medium mt-10 text-lg sm:text-xl md:text-2xl lg:text-5xl'>Projetos de Pintura</h1>
       <ImageGrid />
     </div>
   );

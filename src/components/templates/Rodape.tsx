@@ -6,7 +6,7 @@ interface RodapeProps{
 
 export default function Rodape (props:RodapeProps){
     return (
-        <footer className={`flex items-center justify-end text-zinc-950 px-7 border-t border-zinc-800
+        <footer className={`flex items-center justify-end text-zinc-950 px-7 border-t mt-5 border-zinc-800
             ${props.className ?? ''}`}>
                 <div>
                     

@@ -14,13 +14,13 @@ export default function Page(){
             <div className=" flex-1 flex boxed">
              
                 <main className="flex-1 py-7">
+                <Sobre/>
                     <Servicos/>
                     <Projetos/>
-                    <Sobre/>
                     <Contatos/>
                     </main>
             </div>
-            <Rodape className="h-16"/>
+            <Rodape className="h-[18]"/>
         </div> 
     )
 }
