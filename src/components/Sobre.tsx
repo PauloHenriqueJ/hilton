@@ -11,12 +11,12 @@ export default function Sobre() {
       </div>
       <div className="flex flex-col sm:flex-row items-center p-4 bg-gray-100 rounded-lg shadow-md">
         <Image
-          src="https://imgur.com/h3V3ClZ.png"
+          src="https://imgur.com/z4e1YmP.png"
           alt="logo"
-          width={520}
+          width={320}
           height={200}
           quality={100}
-          className="object-cover"
+          className="object-cover rounded-full"
           
         />
        
@@ -33,3 +33,4 @@ export default function Sobre() {
     </div>
   );
 }
+3
