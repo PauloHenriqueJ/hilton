@@ -13,7 +13,7 @@ export default function Servicos() {
         Serviços
       </h1>
 
-      <p className="antialiased text-center font-medium mt-2 text-lg sm:text-xl md:text-lg lg:text-2xl">
+      <p className="antialiased text-center font-medium mt-2 text-lg sm:text-xl md:text-lg lg:text-2xl mt-7">
         Revitalize seu lar ou estabelecimento com a excelência de uma pintura
         profissional. A transformação que você merece.
       </p>

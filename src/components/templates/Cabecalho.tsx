@@ -9,7 +9,7 @@ interface CabecalhoProps{
     return (
         <header className={`bg-back bg-cover bg-no-repeat bg-center w-full lg:h-[710px] h-[50vh] sm:h-[70vh]
            ${props.className ?? ''}`}>
-            <Menu className="block"/>
+            <Menu className="mb-5"/>
             <Logo/>
             
            </header>

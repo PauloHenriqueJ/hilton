@@ -15,6 +15,7 @@ export default function Logo(){
       width={420}
       height={200}
       quality={100}
+      className="mt-7 lg:px-auto"
       
       />
 
