@@ -18,21 +18,21 @@ export default function Contatos(){
         <div className="flex items-center justify-center sm:flex-row sm:justify-center space-y-4 sm:space-y-0 sm:space-x-4 gap-4 lg:gap-3 ">
           
        
-          <Link href="https://wa.me/5571992159099" legacyBehavior>
+          <Link href="https://wa.me/5571992159099" legacyBehavior className=' '>
             <a target="_blank" rel="noopener noreferrer" className="flex justify-center hover:text-green-400">
-              <FaWhatsapp className='text-green-400 ' size={30} />
+              <FaWhatsapp className='text-green-400 border border-zinc-700 rounded-md ' size={35} />
             </a>
           </Link>
           
           <Link href="https://www.instagram.com/hilton_melo87/" legacyBehavior>
             <a target="_blank" rel="noopener noreferrer" className="flex justify-center hover:text-pink-400">
-              <FaInstagram className='text-violet-700' size={30} />
+              <FaInstagram className='text-violet-600 border border-zinc-700 rounded-md' size={35} />
             </a>
           </Link>
           
           <Link href="https://www.facebook.com/hiltonmelosilva.silva" legacyBehavior>
             <a target="_blank" rel="noopener noreferrer" className="flex justify-center hover:text-blue-400">
-              <FaFacebook className='text-blue-600' size={30} />
+              <FaFacebook className='text-blue-600 border border-zinc-700 rounded-md' size={35} />
             </a>
           </Link>
         </div>
