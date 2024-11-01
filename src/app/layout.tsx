@@ -38,8 +38,13 @@ export default function RootLayout({
     <html lang="pt-BR">
       <body
         className={font.className}
-      >
+      ><div className="flex h-full flex-col">
+        <div className="flex-1">
         {children}
+        </div>
+
+      </div>
+        
       </body>
     </html>
   );

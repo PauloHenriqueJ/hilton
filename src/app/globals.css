@@ -45,6 +45,13 @@ body {
     .no-scrollbar {
       overflow: hidden;
     }
+    html{
+      @apply h-full
+    }
+    body {
+      @apply h-screen w-full overflow-x-hidden overflow-y-auto;
+    }
+
   }
 
   
